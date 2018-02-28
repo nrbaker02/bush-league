@@ -1,0 +1,13 @@
+// 1. Your custom variables and variable overwrites.
+$primary-background-color: #DA7D02;
+
+// 2. Import default variables and available mixins.
+@import 'variables';
+@import 'variables-theme';
+@import 'mixins-theme';
+
+// 3. Your custom mixin overwrites.
+// @mixin hook-card() { color: #000; }
+
+// 4. Import UIkit.
+@import 'uikit-theme';
