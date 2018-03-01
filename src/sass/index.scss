@@ -1,5 +1,9 @@
 // 1. Your custom variables and variable overwrites.
 $button-primary-background: #4a90e2;
+body {
+    background-color: #14171a;
+    height: 100vh;
+}
 
 // 2. Import default variables and available mixins.
 @import "../../node_modules/uikit/src/scss/variables-theme";
