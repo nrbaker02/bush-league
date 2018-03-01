@@ -5,8 +5,9 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build:css": "sass ./src/sass/index.sass > ./dist/index.css",
-        "build:css:watch": "sass --watch ./src/sass/index.sass:./dist/index.css"
+        "build:index-css": "sass ./src/sass/index.scss > ./dist/index.css",
+        "build:style-css": "sass ./src/sass/style.scss > ./dist/style.css",
+        "build:css:watch": "sass --watch ./src/sass/index.scss:./dist/index.css"
     },
     "author": "",
     "license": "ISC",
