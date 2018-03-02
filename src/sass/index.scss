@@ -5,6 +5,8 @@ body {
     height: 100vh;
 }
 
+$base-heading-font-family:'IndustryInc-Base';
+
 // 2. Import default variables and available mixins.
 @import "../../node_modules/uikit/src/scss/variables-theme";
 @import "../../node_modules/uikit/src/scss/mixins-theme";
