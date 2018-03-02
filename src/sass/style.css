@@ -21,16 +21,13 @@ h3 {
 #mc_embed_signup .button {
   border: none;
   font-size: 18px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
 }
 
 #mc_embed_signup input.email {
-  border-radius: 3px 0 0 3px;
   width: 55%;
   max-width: 325px;
+  padding: 8px 5px;
+  border-radius: 3px 0 0 3px;
 }
 
 #mc_embed_signup .button {
@@ -39,8 +36,8 @@ h3 {
   font-family: 'Roboto', sans-serif;
   margin-left: -4px;
   border-radius: 0 3px 3px 0;
-  width: 11%;
   cursor: pointer;
+  padding: 8px 10px;
 }
 
 #mc_embed_signup .button:hover {
