@@ -1,8 +1,42 @@
 // 1. Your custom variables and variable overwrites.
-$button-primary-background: #4a90e2;
+
+header {
+    font-family: 'IndustryInc-Base'
+}
+
 body {
+    margin-top: 0;
     background-color: #14171a;
     height: 100vh;
+}
+
+.gameday-header {
+    color: #14171a;
+}
+
+.gameday-slogan,
+.uk-card-title,
+p {
+    color: #fff;
+}
+
+.uk-card {
+    height: 100px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.plans-button {
+    border-radius: 100px;
+}
+
+.colored-tab {
+    width: 5px;
+    height: 100%;
+    background-color: #0093ee;
+    border-radius: 1px;
+    margin-right: 15px;
+    float: left;
 }
 
 $base-heading-font-family:'IndustryInc-Base';
@@ -16,3 +50,4 @@ $base-heading-font-family:'IndustryInc-Base';
 
 // 4. Import UIkit.
 @import "../../node_modules/uikit/src/scss/uikit-theme";
+

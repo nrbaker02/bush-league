@@ -1,5 +1,5 @@
 body {
-    color: white;
+    color: #14171a;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -9,7 +9,6 @@ header {
 }
 
 h3 {
-    color: #fff;
     font-family: 'IndustryInc-Base';
 }
 
@@ -22,6 +21,7 @@ h3 {
 #mc_embed_signup .button {
     border: none;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #mc_embed_signup input.email {
@@ -32,9 +32,8 @@ h3 {
 }
 
 #mc_embed_signup .button {
-    background: #4a90e2;
+    background: #0093ee;
     color: white;
-    font-family: 'Roboto', sans-serif;
     margin-left: -4px;
     border-radius: 0 3px 3px 0;
     cursor: pointer;

@@ -1,7 +1,41 @@
 @charset "UTF-8";
+header {
+  font-family: "IndustryInc-Base";
+}
+
 body {
+  margin-top: 0;
   background-color: #14171a;
   height: 100vh;
+}
+
+.gameday-header {
+  color: #14171a;
+}
+
+.gameday-slogan,
+.uk-card-title,
+p {
+  color: #fff;
+}
+
+.uk-card {
+  height: 100px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.plans-button {
+  border-radius: 100px;
+}
+
+.colored-tab {
+  width: 5px;
+  height: 100%;
+  background-color: #0093ee;
+  border-radius: 1px;
+  margin-right: 15px;
+  float: left;
 }
 
 /* ========================================================================
@@ -534,7 +568,7 @@ a.uk-link-heading:not(:hover),
 
 a.uk-link-heading:hover,
 .uk-link-heading a:hover {
-  color: #1e87f0;
+  color: #0093ee;
   text-decoration: none;
 }
 
@@ -1569,7 +1603,7 @@ button.uk-icon:not(:disabled) {
   outline: none;
   background-color: #fff;
   color: #666;
-  border-color: #1e87f0;
+  border-color: #0093ee;
 }
 
 /* Disabled */
@@ -1768,7 +1802,7 @@ select.uk-form-width-xsmall {
 .uk-radio:focus,
 .uk-checkbox:focus {
   outline: none;
-  border-color: #1e87f0;
+  border-color: #0093ee;
 }
 
 /*
@@ -1777,7 +1811,7 @@ select.uk-form-width-xsmall {
 .uk-radio:checked,
 .uk-checkbox:checked,
 .uk-checkbox:indeterminate {
-  background-color: #1e87f0;
+  background-color: #0093ee;
   border-color: transparent;
 }
 
@@ -1785,7 +1819,7 @@ select.uk-form-width-xsmall {
 .uk-radio:checked:focus,
 .uk-checkbox:checked:focus,
 .uk-checkbox:indeterminate:focus {
-  background-color: #0e6ecd;
+  background-color: #0074bb;
 }
 
 /*
@@ -2040,7 +2074,38 @@ select.uk-form-width-xsmall {
   text-align: center;
   /* 10 */
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: none;
+  transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
+}
+
+.plans-button {
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  border: none;
+  /* 3 */
+  border-radius: 100px;
+  /* 4 */
+  overflow: visible;
+  /* 5 */
+  font: inherit;
+  color: inherit;
+  /* 6 */
+  text-transform: none;
+  /* 7 */
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 30px;
+  vertical-align: middle;
+  font-size: 0.875rem;
+  /* 8 */
+  line-height: 38px;
+  /* 9 */
+  text-align: center;
+  /* 10 */
+  text-decoration: none;
+  text-transform: none;
   transition: 0.1s ease-in-out;
   transition-property: color, background-color, border-color;
 }
@@ -2058,6 +2123,7 @@ select.uk-form-width-xsmall {
 }
 
 /* Hover */
+.plans-button:hover,
 .uk-button:hover {
   /* 8 */
   text-decoration: none;
@@ -2100,7 +2166,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-button-primary {
-  background-color: #4a90e2;
+  background-color: #0093ee;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -2108,14 +2174,14 @@ select.uk-form-width-xsmall {
 /* Hover + Focus */
 .uk-button-primary:hover,
 .uk-button-primary:focus {
-  background-color: #3483de;
+  background-color: #0083d5;
   color: #fff;
 }
 
 /* OnClick + Active */
 .uk-button-primary:active,
 .uk-button-primary.uk-active {
-  background-color: #2275d7;
+  background-color: #0074bb;
   color: #fff;
 }
 
@@ -2411,7 +2477,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-section-primary {
-  background: #1e87f0;
+  background: #0093ee;
 }
 
 /*
@@ -2982,7 +3048,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-tile-primary {
-  background: #1e87f0;
+  background: #0093ee;
 }
 
 /*
@@ -3126,7 +3192,7 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-card-primary {
-  background: #1e87f0;
+  background: #0093ee;
   color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
@@ -3136,7 +3202,7 @@ select.uk-form-width-xsmall {
 }
 
 .uk-card-primary.uk-card-hover:hover {
-  background-color: #1e87f0;
+  background-color: #0093ee;
   box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
 }
 
@@ -3436,8 +3502,8 @@ select.uk-form-width-xsmall {
  * Primary
  */
 .uk-alert-primary {
-  background: #d8eafc;
-  color: #1e87f0;
+  background: #c6e7fb;
+  color: #0093ee;
 }
 
 /*
@@ -3501,7 +3567,7 @@ select.uk-form-width-xsmall {
   border-radius: 500px;
   vertical-align: middle;
   /* 1 */
-  background: #1e87f0;
+  background: #0093ee;
   color: #fff;
   font-size: 0.875rem;
   /* 2 */
@@ -3526,7 +3592,7 @@ select.uk-form-width-xsmall {
 .uk-label {
   display: inline-block;
   padding: 0 10px;
-  background: #1e87f0;
+  background: #0093ee;
   line-height: 1.5;
   font-size: 0.875rem;
   color: #fff;
@@ -4715,7 +4781,7 @@ ul.uk-nav-sub {
 
 /* Active */
 .uk-subnav-pill > .uk-active > a {
-  background-color: #1e87f0;
+  background-color: #0093ee;
   color: #fff;
 }
 
@@ -4917,7 +4983,7 @@ ul.uk-nav-sub {
 /* Active */
 .uk-tab > .uk-active > a {
   color: #333;
-  border-color: #1e87f0;
+  border-color: #0093ee;
 }
 
 /* Disabled */
@@ -6402,7 +6468,7 @@ ul.uk-nav-sub {
  * Primary
  */
 .uk-notification-message-primary {
-  color: #1e87f0;
+  color: #0093ee;
 }
 
 /*
@@ -6558,16 +6624,16 @@ ul.uk-nav-sub {
  * 1. Remove right border in IE11 and Edge
  */
 .uk-progress::-webkit-progress-value {
-  background-color: #1e87f0;
+  background-color: #0093ee;
   transition: width 0.6s ease;
 }
 
 .uk-progress::-moz-progress-bar {
-  background-color: #1e87f0;
+  background-color: #0093ee;
 }
 
 .uk-progress::-ms-fill {
-  background-color: #1e87f0;
+  background-color: #0093ee;
   transition: width 0.6s ease;
   /* 1 */
   border: 0;
@@ -7782,7 +7848,7 @@ ul.uk-nav-sub {
 }
 
 .uk-text-primary {
-  color: #1e87f0 !important;
+  color: #0093ee !important;
 }
 
 .uk-text-success {
@@ -7812,12 +7878,12 @@ ul.uk-nav-sub {
   /* 2 */
   display: inline-block;
   /* 3 */
-  color: #1e87f0 !important;
+  color: #0093ee !important;
 }
 
 @supports (-webkit-background-clip: text) {
   .uk-text-background {
-    background-color: #1e87f0;
+    background-color: #0093ee;
   }
 }
 /* Alignment modifiers
@@ -8171,7 +8237,7 @@ iframe.uk-cover {
 }
 
 .uk-background-primary {
-  background-color: #1e87f0;
+  background-color: #0093ee;
 }
 
 .uk-background-secondary {
