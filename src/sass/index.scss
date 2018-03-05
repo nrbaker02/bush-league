@@ -4,10 +4,18 @@ header {
     font-family: 'IndustryInc-Base'
 }
 
+.mobile-container {
+    display: none;
+}
+
 body {
     margin-top: 0;
     background-color: #14171a;
     height: 100vh;
+}
+
+h1 {
+    font-size: 14px;
 }
 
 .gameday-header {
@@ -21,7 +29,7 @@ p {
 }
 
 .uk-card {
-    height: 100px;
+    height: 120px;
     margin-top: 35px;
     margin-bottom: 35px;
 }
@@ -51,3 +59,24 @@ $base-heading-font-family:'IndustryInc-Base';
 // 4. Import UIkit.
 @import "../../node_modules/uikit/src/scss/uikit-theme";
 
+
+@media (max-width: 768px) {
+    .uk-card {
+        height: 140px;
+    }
+}
+
+@media (max-width: 425px) {
+    
+    body {
+        
+    }
+
+    .card-container {
+        display: none;
+    }
+    
+    .plans-button {
+        min-width: 150px;
+    }
+}
